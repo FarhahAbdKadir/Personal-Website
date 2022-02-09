@@ -1,0 +1,67 @@
+table, tr, td, th 
+  {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 2px;
+    width: 50%;
+
+  }
+
+a:link, a:visited 
+  {
+    background-color: lightpink;
+    color: purple;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-family: verdana;
+  }
+
+a:hover
+  {
+    color: lightpink;
+    background-color: navy;
+    text-decoration: underline;
+  }
+
+a:active
+  {
+    color: navy;
+    background-color: navy;
+    text-decoration: underline;
+  }
+
+tr:nth-child(even)
+  {
+    background-color: #c497b0;
+  }
+
+tr:nth-child(odd)
+  {
+    background-color: lavenderblush;
+  }
+th
+  {
+    background-color: #ab6089;
+  }
+
+tr:hover
+  {
+    background-color: lightpink;
+  }
+
+h2
+  {
+    padding: 7px;
+  }
+
+p
+  {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 15px;
+    width: 50%;
+    font-family: 'Sacramento', cursive;
+    color: navy;
+  }
